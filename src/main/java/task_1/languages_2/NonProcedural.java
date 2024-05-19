@@ -1,4 +1,4 @@
-package task_1.languages;
+package task_1.languages_2;
 
 public class NonProcedural extends ProgramLanguage {
     public enum ObjectOriented {CPP, VISUAL_BASIC, DELPHI, JAVA}

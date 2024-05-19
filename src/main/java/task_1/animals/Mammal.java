@@ -1,22 +1,15 @@
 package task_1.animals;
 
 abstract public class Mammal {
+    String kind;
+    String name;
 
     static class Backbone {
 
     }
 
     public Mammal() {
+        Backbone backbone = new Backbone();
     }
-    //    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (!(o instanceof Mammal)) return false;
-//        return super.equals(o);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return super.hashCode();
-//    }
 }
+

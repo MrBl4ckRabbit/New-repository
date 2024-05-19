@@ -1,4 +1,4 @@
-package task_1.languages;
+package task_1.languages_2;
 
 public class Procedural extends ProgramLanguage{
     public enum LowLevel {ASSEMBLER}

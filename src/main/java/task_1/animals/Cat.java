@@ -3,7 +3,6 @@ package task_1.animals;
 import java.util.Objects;
 
 public class Cat extends Mammal {
-    Mammal.Backbone backbone = new Mammal.Backbone();
     static class Fur {
 
     }
@@ -11,19 +10,22 @@ public class Cat extends Mammal {
     public Cat() {
     }
 
-    public Cat(Backbone backbone) {
-        this.backbone = backbone;
+    public Cat(String kind, String name) {
+        super();
+        Fur fur = new Fur();
+        this.kind = kind;
+        this.name = name;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Cat cat)) return false;
-        return Objects.equals(backbone, cat.backbone);
+        return Objects.equals(kind, cat.kind) && Objects.equals(name, cat.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(backbone);
+        return Objects.hash(kind, name);
     }
 }

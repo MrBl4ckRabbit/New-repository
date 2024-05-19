@@ -1,2 +1,4 @@
-package task_1.languages_1;public class ProgrammingLanguage {
+package task_1.languages_1;
+
+public abstract class ProgrammingLanguage {
 }
