@@ -5,24 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86277a7-90f5-4ff1-8ced-75913ab3466a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_1/BufferedInputStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_2/BufferedOutputStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_2/new_text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_2/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_3/ByteArrayInputStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_4/ByteArrayOutputStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_5/DataIoStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_5/MyDataIoStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_5/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_5/text_from.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_5/text_to.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_6/BufferedReaderRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_6/FileInputStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_6/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_7/FileOutputStreamRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task_4/example_7/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/FixedThreadPoolCallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/GenerateRandomIntegerCallableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/ExceptionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/ExceptionDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/RunAsyncDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/SupplyAsync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/ThenApplyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/ThenComposeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/model/CreditRatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/callablefuture/completablefuture/model/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/executors/CachedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/executors/FixedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/executors/ScheduledThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/executors/SingleThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/executors/task/GenerateRandomIntegerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/executors/task/GenerateRandomIntegerWithIdTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/forkjoin/DivideNumberDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/forkjoin/SumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/forkjoin/SumStandardDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/forkjoin/model/DivideNumberAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/forkjoin/model/SumTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/base/IncrementCounterSynchronizedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/base/IncrementCounterUnsafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/cas/AtomicLongDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/cas/LongDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/exchanger/ExchangerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/exchanger/model/PingWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/exchanger/model/PongWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/external/FooSafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/external/FooSemaphoreSafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/external/FooUnsafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/external/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/external/model/FooSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/external/model/FooSemaphoreSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/external/model/FooUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/internal/IncrementCounterSynchronizedBlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/monitor/internal/IncrementTwoCountersSynchronizedOnObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/troubles/DeadlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/troubles/LiveLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/troubles/StarvationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/troubles/model/Eater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/troubles/model/Spoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/troubles/model/StarvationWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/troubles/model/SyncThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/volatiles/RaceConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/synchronization/volatiles/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/base/RunnableCounterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/base/ThreadCounterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/base/ThreadCounterJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/base/ThreadWithSleepCounterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/base/worker/RunnableCounterWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/base/worker/ThreadCounterWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/base/worker/ThreadWithSleepCounterWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/before/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/before/ServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/before/SimpleCounterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/before/SimpleCounterWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/deamon/ThreadCounterWithDaemonFlagDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/deamon/worker/ThreadCounterWithDaemonFlagWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/priority/ThreadCounterWithPriorityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_5/threads/priority/worker/ThreadCounterWithPriorityWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,33 +109,71 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AtomicLongDemo.executor": "Run",
     "Application.BufferedInputStreamRunner.executor": "Run",
     "Application.BufferedOutputStreamRunner.executor": "Run",
     "Application.ByteArrayInputStreamRunner.executor": "Run",
     "Application.ByteArrayOutputStreamRunner.executor": "Run",
+    "Application.CachedThreadPoolDemo.executor": "Run",
     "Application.DataIoStreamRunner.executor": "Run",
+    "Application.DeadlockDemo.executor": "Run",
+    "Application.DivideNumberDemo.executor": "Run",
+    "Application.ExceptionDemo1.executor": "Run",
+    "Application.ExceptionDemo2.executor": "Run",
+    "Application.ExchangerDemo.executor": "Run",
+    "Application.FixedThreadPoolCallableDemo.executor": "Run",
+    "Application.FixedThreadPoolDemo.executor": "Run",
+    "Application.FooSafeDemo.executor": "Run",
+    "Application.FooSemaphoreSafeDemo.executor": "Run",
+    "Application.FooUnsafeDemo.executor": "Run",
+    "Application.IncrementCounterSynchronizedDemo.executor": "Run",
+    "Application.IncrementCounterUnsafeDemo.executor": "Run",
+    "Application.LiveLockDemo.executor": "Run",
+    "Application.LongDemo.executor": "Run",
     "Application.MyDataIoStreamRunner.executor": "Run",
     "Application.PuttingIntoPractice.executor": "Run",
+    "Application.RaceConditionDemo.executor": "Run",
+    "Application.ReentrantLockDemo.executor": "Run",
+    "Application.RunAsyncDemo.executor": "Run",
+    "Application.RunnableCounterDemo.executor": "Run",
+    "Application.ScheduledThreadPoolDemo.executor": "Run",
+    "Application.ServiceDemo.executor": "Run",
+    "Application.SimpleCounterDemo.executor": "Run",
+    "Application.SingleThreadPoolDemo.executor": "Run",
+    "Application.StarvationDemo.executor": "Run",
+    "Application.SumDemo.executor": "Run",
+    "Application.SumStandardDemo.executor": "Run",
+    "Application.SupplyAsync.executor": "Run",
+    "Application.ThenApplyDemo.executor": "Run",
+    "Application.ThenComposeDemo.executor": "Run",
+    "Application.ThreadCounterDemo.executor": "Run",
+    "Application.ThreadCounterJoinDemo.executor": "Run",
+    "Application.ThreadCounterWithDaemonFlagDemo.executor": "Run",
+    "Application.ThreadCounterWithPriorityDemo.executor": "Run",
+    "Application.ThreadWithSleepCounterDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "tasak__3",
+    "git-widget-placeholder": "task__4",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/AStudy/HomeWork/src/main/java",
+    "last_opened_file_path": "E:/AStudy/HomeWork/src/main/java/task_5/synchronization",
     "onboarding.tips.debug.path": "E:/AStudy/HomeWork/src/main/java/org/example/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AStudy\HomeWork\src\main\java\task_5\synchronization" />
+      <recent name="E:\AStudy\HomeWork\src\main\java\task_5\forkjoin" />
+      <recent name="E:\AStudy\HomeWork\src\main\java\task_5\callablefuture" />
+      <recent name="E:\AStudy\HomeWork\src\main\java\task_5\threads" />
       <recent name="E:\AStudy\HomeWork\src\main\java" />
-      <recent name="E:\AStudy\HomeWork\src\main\java\task_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileOutputStreamRunner">
-    <configuration name="BufferedReaderRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_4.example_6.BufferedReaderRunner" />
+  <component name="RunManager" selected="Application.VolatileDemo">
+    <configuration name="DeadlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_5.synchronization.troubles.DeadlockDemo" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task_4.example_6.*" />
+          <option name="PATTERN" value="task_5.synchronization.troubles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataIoStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_4.example_5.DataIoStreamRunner" />
+    <configuration name="LiveLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_5.synchronization.troubles.LiveLockDemo" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task_4.example_5.*" />
+          <option name="PATTERN" value="task_5.synchronization.troubles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_4.example_6.FileInputStreamRunner" />
+    <configuration name="RaceConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_5.synchronization.volatiles.RaceConditionDemo" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task_4.example_6.*" />
+          <option name="PATTERN" value="task_5.synchronization.volatiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_4.example_7.FileOutputStreamRunner" />
+    <configuration name="StarvationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_5.synchronization.troubles.StarvationDemo" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task_4.example_7.*" />
+          <option name="PATTERN" value="task_5.synchronization.troubles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDataIoStreamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_4.example_5.MyDataIoStreamRunner" />
+    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_5.synchronization.volatiles.VolatileDemo" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task_4.example_5.*" />
+          <option name="PATTERN" value="task_5.synchronization.volatiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileOutputStreamRunner" />
-        <item itemvalue="Application.BufferedReaderRunner" />
-        <item itemvalue="Application.FileInputStreamRunner" />
-        <item itemvalue="Application.MyDataIoStreamRunner" />
-        <item itemvalue="Application.DataIoStreamRunner" />
+        <item itemvalue="Application.VolatileDemo" />
+        <item itemvalue="Application.RaceConditionDemo" />
+        <item itemvalue="Application.StarvationDemo" />
+        <item itemvalue="Application.LiveLockDemo" />
+        <item itemvalue="Application.DeadlockDemo" />
       </list>
     </recent_temporary>
   </component>
