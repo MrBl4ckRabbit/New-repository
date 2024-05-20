@@ -11,7 +11,7 @@ public class MyDataIoStreamRunner {
     }
 
     private static void writeDataToFile(Person person) {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("src/task_4/example_5/text_to.txt"))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("src/main/java/task_4/example_5/text_to.txt"))) {
             bw.write(person.name + " ");
             bw.write(person.age + " ");
             bw.write(person.height + " ");
@@ -23,7 +23,7 @@ public class MyDataIoStreamRunner {
     }
 
     private static void readDataFromFile() {
-        try (BufferedReader br = new BufferedReader(new FileReader("src/task_4/example_5/text_from.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/task_4/example_5/text_from.txt"))) {
             String line = br.readLine();
             String[] data = line.split(" ");
             String name = data[0];

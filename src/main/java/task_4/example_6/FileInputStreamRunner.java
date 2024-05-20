@@ -14,7 +14,7 @@ public class FileInputStreamRunner {
     private static void readAllBytes() {
         FileInputStream inputStream = null;
         try {
-            inputStream = new FileInputStream("src/task_4/example_6/text.txt");
+            inputStream = new FileInputStream("src/main/java/task_4/example_6/text.txt");
             byte[] bytes = inputStream.readAllBytes();
             String stringValue = new String(bytes);
             System.out.println(stringValue);
@@ -32,7 +32,7 @@ public class FileInputStreamRunner {
     }
 
     private static void readEachByte() {
-        try (FileInputStream inputStream = new FileInputStream("src/task_4/example_6/text.txt")) {
+        try (FileInputStream inputStream = new FileInputStream("src/main/java/task_4/example_6/text.txt")) {
             byte[] bytes = new byte[inputStream.available()];
             int counter = 0;
             byte currentByte;

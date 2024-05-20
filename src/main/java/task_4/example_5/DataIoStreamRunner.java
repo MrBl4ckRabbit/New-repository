@@ -14,7 +14,7 @@ public class DataIoStreamRunner {
     }
 
     private static void writeDataToFile(Person tom) {
-        try (DataOutputStream dos = new DataOutputStream(new FileOutputStream("src/task_4/example_5/text_to.txt"))) {
+        try (DataOutputStream dos = new DataOutputStream(new FileOutputStream("src/main/java/task_4/example_5/text_to.txt"))) {
             // записываем значения
             dos.writeUTF(tom.name);
             dos.writeInt(tom.age);
@@ -27,7 +27,7 @@ public class DataIoStreamRunner {
     }
 
     private static void readDataFromFile() {
-        try (DataInputStream dos = new DataInputStream(new FileInputStream("src/task_4/example_5/text_from.txt"))) {
+        try (DataInputStream dos = new DataInputStream(new FileInputStream("src/main/java/task_4/example_5/text_from.txt"))) {
             // записываем значения
             String name = dos.readUTF();
             int age = dos.readInt();

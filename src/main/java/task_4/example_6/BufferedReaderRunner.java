@@ -12,7 +12,7 @@ public class BufferedReaderRunner {
     }
 
     private static void readAllBytes() {
-        try (BufferedReader br = new BufferedReader(new FileReader("src/task_4/example_6/text.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/task_4/example_6/text.txt"))) {
             StringBuilder sb = new StringBuilder();
             String tmp;
             while ((tmp = br.readLine()) != null) {
@@ -25,7 +25,7 @@ public class BufferedReaderRunner {
     }
 
     private static void readEachByte() {
-        try (BufferedReader br = new BufferedReader(new FileReader("src/task_4/example_6/text.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/task_4/example_6/text.txt"))) {
             int c;
             while ((c = br.read()) != -1) {
                 System.out.print((char) c);
